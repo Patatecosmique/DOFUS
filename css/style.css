@@ -32,7 +32,6 @@ header nav {
     height: 100%;
     object-fit: cover; /* Pour couvrir tout l'écran */
     z-index: -1; /* Mettre la vidéo en arrière-plan */
-    filter: blur(4px);
 }
 
 /* ----------------------------------- Barre de Navigation ----------------------------- */
@@ -43,7 +42,6 @@ header nav {
     background-color: black;  
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
     height: 150px;
     padding: 0 20px;
 }
@@ -84,21 +82,29 @@ header nav {
     text-decoration: none;
 }
 
-/* ---------------------------------- Texte ----------------------------------*/
-.block-text { 
-    background-color: rgba(0, 0, 0, 0.7); /* Fond noir semi-transparent pour contraster */
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 500px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+.nav-links-left a:hover,
+.nav-links-right a:hover {
+    color: #96A702;
     
 }
-
+/* ---------------------------------- Texte ----------------------------------*/
+.block-text { 
+    background-image: url(../img/bg-text-keyart.png);
+    background-size: cover ; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    color: #D1C6B7;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    text-align: center;
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .text p {
-    font-size: 35px; 
+    font-size: 25px; 
     margin-bottom: 10px;
 }
+
