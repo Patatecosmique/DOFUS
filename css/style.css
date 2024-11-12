@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* -------------------------------- Appel de la Police ------------------------------- */
+@font-face {
+    
+    font-family: "Bebas Neue", sans-serif;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+/* --------------------------------Paramétre mise en page ------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+header nav {
+    display: flex;
+    align-items: center;
+}
+/* -------------------------------------- Background video -----------------------------*/
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pour couvrir tout l'écran */
+    z-index: -1; /* Mettre la vidéo en arrière-plan */
+    filter: blur(4px);
+}
+
+/* ----------------------------------- Barre de Navigation ----------------------------- */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;  
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 150px;
+    padding: 0 20px;
+}
+
+.nav-links-left {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    gap: 30px;
+    align-items: center; 
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.logo {
+    padding-top: 45px;
+    margin: 0px 20px;
+    width: 300px;
+    height: auto;
+}
+
+.nav-links-right {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    gap: 30px;
+    text-decoration: none;
+    align-items: center; 
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.nav-links-left a,
+.nav-links-right a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ---------------------------------- Texte ----------------------------------*/
+.vignette {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    background-image: url('../img/bg-text-keyart.png'); 
+    background-size: cover;
+    background-position: center; 
+    color: white; 
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: center; 
+    font-family: "Bebas Neue", sans-serif;
+    position: relative; 
+    overflow: hidden; 
+    margin: 20px auto;
+}
+
+
+.vignette p {
+    font-size: 35px; 
+    margin-bottom: 10px;
+}
