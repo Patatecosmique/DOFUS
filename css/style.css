@@ -85,25 +85,20 @@ header nav {
 }
 
 /* ---------------------------------- Texte ----------------------------------*/
-.vignette {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
-    background-image: url('../img/bg-text-keyart.png'); 
-    background-size: cover;
-    background-position: center; 
-    color: white; 
+.block-text { 
+    background-color: rgba(0, 0, 0, 0.7); /* Fond noir semi-transparent pour contraster */
+    color: white;
     padding: 20px;
-    border-radius: 10px; 
-    text-align: center; 
-    font-family: "Bebas Neue", sans-serif;
-    position: relative; 
-    overflow: hidden; 
-    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
 }
 
-
-.vignette p {
+.text p {
     font-size: 35px; 
     margin-bottom: 10px;
 }
