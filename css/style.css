@@ -120,6 +120,19 @@ header nav {
 
 /* --------------------------------- CSS - classe.html ----------------------- */
 
+/* --------------------------------- Background ------------------------------- */
+.background-classe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+
+/* --------------------------------- Vignette -------------------------------- */
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
