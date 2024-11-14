@@ -118,7 +118,7 @@ header nav {
     margin-bottom: 10px;
 }
 
-/* --------------------------------- Vignette (page html Classes) ----------------------- */
+/* --------------------------------- CSS - classe.html ----------------------- */
 
 .container {
     display: grid;
@@ -126,7 +126,8 @@ header nav {
     gap: 20px;
     max-width: 800px;
     margin: auto;
-    padding: 50px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .vignette {
