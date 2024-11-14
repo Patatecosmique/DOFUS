@@ -36,12 +36,17 @@ header nav {
 
 /* ----------------------------------- Barre de Navigation ----------------------------- */
 .navbar {
+    position: fixed;          
+    top: 0;              
+    left: 0;
+    width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;  
-    height: 150px;
+    height: 125px;
     padding: 0 20px;
+    z-index: 1000;
 }
 
 .nav-links-left,
@@ -92,7 +97,7 @@ header nav {
 .nav-links-right a:hover::before {
     transform: translate(-50%, 0) scaleX(1); /* Animation au survol */
 }
-/* ---------------------------------- Texte ----------------------------------*/
+/* ---------------------------------- Texte --------------------------------------------*/
 .block-text { 
     background-image: url(../img/bg-text-keyart.png);
     background-size: cover ; 
@@ -113,3 +118,49 @@ header nav {
     margin-bottom: 10px;
 }
 
+/* --------------------------------- Vignette (page html Classes) ----------------------- */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+}
+
+.vignette {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #333;
+    border-radius: 15px;
+    height: 250px;
+}
+
+.vignette img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.vignette:hover img {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.overlay h2 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
