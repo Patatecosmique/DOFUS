@@ -18,6 +18,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    padding: 0;
+    margin: 0;
+}
 
 body, html {
     width: 100%;
@@ -123,6 +130,36 @@ header nav {
     margin-bottom: 10px;
 }
 
+/* ---------------------------------- Footer --------------------------------------------*/
+footer {
+    background-color: black; /* Couleur de fond noir */
+    padding: 20px;           /* Espacement interne */
+    text-align: center;      /* Centrer le texte */
+    font-family: "Bebas Neue", sans-serif; /* Police de caractère */
+    color: white;            /* Couleur du texte */
+    z-index: 1;              /* Niveau de superposition */
+    position: relative;      /* Positionnement relatif */
+    margin-top: 650px;
+}
+
+footer h2 {
+    margin-bottom: 15px;     /* Marge en bas du titre */
+    font-size: 24px;         /* Taille de la police du titre */
+}
+
+footer p {
+    margin: 5px 0;           /* Marges pour les paragraphes */
+}
+
+footer a {
+    color:#96A702;          /* Couleur des liens */
+    text-decoration: none;    /* Pas de soulignement */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Souligner au survol */
+}
+
 /* --------------------------------- CSS - CLASSE.HTML ----------------------- */
 
 /* --------------------------------- Background ------------------------------- */
@@ -136,7 +173,6 @@ header nav {
     z-index: -1;
     filter: blur(3px); 
 }
-
 
 /* --------------------------------- Vignette -------------------------------- */
 .container-classe {
@@ -200,4 +236,5 @@ header nav {
     filter: blur(3px); 
 }
 
-/*  */
+/* ----------------------------------- Block centrale --------------------------------------- */ 
+
