@@ -139,13 +139,9 @@ footer {
     color: white;            /* Couleur du texte */
     z-index: 1;              /* Niveau de superposition */
     position: relative;      /* Positionnement relatif */
-    margin-top: 650px;
+    margin-top: auto;
 }
 
-footer h2 {
-    margin-bottom: 15px;     /* Marge en bas du titre */
-    font-size: 24px;         /* Taille de la police du titre */
-}
 
 footer p {
     margin: 5px 0;           /* Marges pour les paragraphes */
