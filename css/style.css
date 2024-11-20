@@ -221,7 +221,7 @@ footer a:hover {
 
 
 /* ---------------------------------- Background ------------------------------------------ */
-.background-classe {
+.background-astrub {
     position: fixed;
     top: 0;
     left: 0;
@@ -232,5 +232,41 @@ footer a:hover {
     filter: blur(3px); 
 }
 
-/* ----------------------------------- Block centrale --------------------------------------- */ 
+/* ----------------------------------- Bloc - Actualités --------------------------------------- */ 
+.block-container {
+    display: flex;
+    flex-direction: column; /* Pour aligner les articles verticalement */
+    align-items: center; /* Centre les articles horizontalement */
+    padding: 20px;
+    margin-top: 250px;
+}
 
+.block {
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+    max-width: 800px; 
+    margin: 10px 0; 
+    padding: 20px; 
+}
+
+.block img {
+    max-width: 100%; 
+    border-radius: 5px; 
+}
+
+.block h2 {
+    color: black; 
+}
+
+.block a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.block a:hover {
+    text-decoration: underline;
+}
