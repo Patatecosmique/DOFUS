@@ -145,6 +145,7 @@ footer {
     z-index: 1;            
     position: relative;    
     margin-top: auto;
+    
 }
 
 
@@ -163,15 +164,22 @@ footer a:hover {
 
 .social-icons {
     display: flex;
-    justify-content: flex-end; 
+    justify-content: center; /* Centre les icônes horizontalement */
     margin-top: 10px; 
 }
 
 .social-icon {
-    width: 30px; 
+    width: 40px; /* Ajustez la taille ici */
     height: auto;
-    margin-left: 10px; 
+    margin-left: 10px; /* Espace entre les icônes */
 }
+
+.social-icons i {
+    font-size: 25px;
+    color: white; 
+    margin-left: 15px; 
+}
+
 
 /* --------------------------------- CSS - CLASSE.HTML ----------------------- */
 
