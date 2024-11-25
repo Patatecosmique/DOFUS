@@ -94,7 +94,7 @@ header nav {
 .nav-links-right a:hover {
     color: #96A702;
 }
-
+/* -------------------------------------------- Effet de survol - nav-link -------------------------------------- */
 .nav-links-left a::before,
 .nav-links-right a::before {
     content: '';
@@ -161,17 +161,17 @@ footer a {
 footer a:hover {
     text-decoration: underline; 
 }
-
+/* ------------------------------ Reseaux sociaux - Logo  ------------------------------ */
 .social-icons {
     display: flex;
-    justify-content: center; /* Centre les icônes horizontalement */
+    justify-content: center;
     margin-top: 10px; 
 }
 
 .social-icon {
-    width: 40px; /* Ajustez la taille ici */
+    width: 40px;
     height: auto;
-    margin-left: 10px; /* Espace entre les icônes */
+    margin-left: 10px; 
 }
 
 .social-icons i {
@@ -180,10 +180,9 @@ footer a:hover {
     margin-left: 15px; 
 }
 
+/* --------------------------------- CSS - CLASSE.HTML  ------------------------------*/
 
-/* --------------------------------- CSS - CLASSE.HTML ----------------------- */
-
-/* --------------------------------- Background ------------------------------- */
+/* --------------------------------- Background ------------------------------ */
 .background-classe {
     position: fixed;
     top: 0;
