@@ -180,6 +180,7 @@ footer a:hover {
     margin-left: 15px; 
 }
 
+
 /* --------------------------------- CSS - CLASSE.HTML  ------------------------------*/
 
 /* --------------------------------- Background ------------------------------ */
@@ -337,8 +338,6 @@ em {
     z-index: -1;
     filter: blur(3px); 
 }
-
-/*  */
 
 .block-container {
     max-width: 800px;
