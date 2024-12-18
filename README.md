@@ -1,12 +1,13 @@
 # 🌐 **Projet**: Réalisation d'un site web  
 
-Bienvenue sur le projet **[Nom du Projet]**, un site moderne et responsive déployé via **GitHub Pages** ! 🚀  
+Bienvenue sur le projet **du site web sur dofus**, un site moderne et responsive déployé via **GitHub Pages** ! 🚀  
 👉 **Lien du site** : [visuel du site](https://patatecosmique.github.io/PROJET-WEB/)  
 
 ---
 ### **Description du projet**
 
-**Ce site Web** à pour objectif de faire découvrir ce MMORPG dont les réalisateur sont Français !
+Ce site web a pour objectif de faire découvrir ce MMORPG français et de donner envie aux visiteurs de se lancer dans l'aventure.
+En présentant le jeu de manière simple et accessible, nous espérons éveiller leur curiosité et leur passion pour cet univers unique.
 
 ### ✨ **Points forts** :  
 - 🎨 Design moderne et responsive  
