@@ -378,3 +378,135 @@ em {
 .bold-text {
     color:#96A702; 
 }
+
+
+/* ----------------------------------- Responsive Design ----------------------------------- */
+
+/* Pour les écrans de moins de 768px (Tablettes) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: center; 
+        align-items: center;
+        position: relative;
+    }
+
+    .nav-links-left, .nav-links-right {
+        align-items: center ; 
+        gap: 15px;
+    }
+
+    .nav-links-left a,
+    .nav-links-right a {
+        font-size: 20px; 
+    }
+
+    .logo {
+        width: 200px; 
+    }
+
+    .block-text {
+        width: 80%; 
+        padding: 10px; 
+    }
+    .block-container {
+        margin: 50px;
+    }
+    .container-classe {
+        padding-top: 100px;
+        grid-template-columns: repeat(2, 1fr); 
+        margin: 50px;
+    }
+
+    .vignette {
+        height: 225px; /* Permet aux vignettes de s'ajuster automatiquement */
+    }
+
+    .coffret-dofus {
+        margin-left: 50px;
+    }
+
+    .back-to-rush {
+        margin-left: 50px;
+    }
+
+    .calendar {
+        margin-left: 50px;
+    }
+
+    footer {
+        font-size: 14px; /* Réduit la taille de la police du footer */
+    }
+}
+
+/* Pour les écrans de moins de 375px (Mobile L) */
+
+@media (max-width: 375px), (max-width: 425px), (max-width: 320px) {
+
+    .navbar {
+        flex-direction: center; 
+        align-items: center; /* Center items */
+        padding: 100px;
+    }
+
+    .nav-links-left, .nav-links-right {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        margin-bottom: 10px; 
+    }
+
+    .logo {
+        width: 150px; 
+        margin: 10px 0; 
+    }
+
+    .block-text {
+        font-size: 14px;
+        padding: 10px; 
+    }
+    .block-container {
+        margin: 20px
+
+    }
+    .container-classe {
+        padding-top: 100px;
+        grid-template-columns: repeat(1, 1fr); 
+        margin: 10px;
+    }
+
+    .coffret-dofus {
+        margin-left: 0px;
+        padding-right: 40px;
+        width: 300px;
+        height: auto;
+    }
+
+    .back-to-rush {
+        margin-left: 0px;
+        padding-right: 40px;
+        width: 300px;
+        height: auto;
+    }
+
+    .calendar {
+        margin-left: 0px;
+        padding-right: 40px;
+        width: 300px;
+        height: auto;
+    }
+
+
+    footer {
+        font-size: 12px; /* Reduce footer font size */
+    }
+}
+
+
+
+
+
+
+
+
+
+
