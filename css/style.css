@@ -2,17 +2,17 @@
 
 /* -------------------------------- Appel de la Police ------------------------------- */
 @font-face {
-    
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Bebas Neue";
     src: url(../fonts/BebasNeue-Regular.ttf);
 }
+
 @font-face {
-    font-family: "Rowdies", sans-serif;
+    font-family: "Rowdies";
     src: url(../fonts/Rowdies-Regular.ttf);
 }
 
 @font-face {
-    font-family:  "Sedan", serif;
+    font-family: "Sedan";
     src: url(../fonts/Sedan-Italic.ttf);
 }
 /* --------------------------------Paramétre mise en page ------------------------------ */
