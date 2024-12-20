@@ -440,7 +440,7 @@ em {
 
 /* Pour les écrans de moins de 375px (Mobile L) */
 
-@media (max-width: 375px), {
+@media (max-width: 375px) {
 
     .navbar {
         flex-direction: center; 
