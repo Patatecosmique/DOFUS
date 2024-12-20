@@ -32,7 +32,7 @@ Ce projet a été développé avec les outils suivants :
 
 - **Validation W3C** (HTML & CSS) ✅
 - Utilisation de Doc pour [Flex grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods)
-- Problème de responsive design pour un format de 425 pixel non résolu.
+- Problème de responsive design pour un format de 425 pixel et 375 non résolu.
 
 
 ### 📝 **À propos**
