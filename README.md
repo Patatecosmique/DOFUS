@@ -1,7 +1,7 @@
 # 🌐 **Projet**: Réalisation d'un site web  
 
 Bienvenue sur le projet **du site web sur dofus**, un site moderne et responsive déployé via **GitHub Pages** ! 🚀  
-👉 **Lien du site** : [visuel du site](https://patatecosmique.github.io/PROJET-WEB/)  
+👉 **Lien du site** : [visuel du site](https://patatecosmique.github.io/DOFUS/)  
 
 ---
 ### **Description du projet**
